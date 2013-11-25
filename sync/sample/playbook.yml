@@ -1,0 +1,8 @@
+- hosts: all
+  tasks:
+    - name: install core packages
+      apt: pkg=$item install_recommends=no
+      with_items:
+        - curl
+        - tree
+      sudo: yes

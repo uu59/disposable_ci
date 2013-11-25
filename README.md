@@ -25,3 +25,11 @@ repo/$ ./ssh.sh
 # Customize
 
 See `sync/ci.sh` and `sync/Dockerfile`.
+
+# Demo
+
+[rbl](https://github.com/uu59/rbl) test sample.
+
+```
+$ ./sync/sample/run.sh
+```
